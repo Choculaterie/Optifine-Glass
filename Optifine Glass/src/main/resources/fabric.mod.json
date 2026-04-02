@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "optifine_glass",
+	"version": "${version}",
+	"name": "Optifine Glass",
+	"description": "Adds connected glass textures from Optifine",
+	"authors": [
+		"Choculat"
+	],
+	"contact": {
+		"homepage": "https://choculaterie.com/",
+		"sources": "https://github.com/Choculaterie/Optifine-Glass",
+		"issues": "https://github.com/Choculaterie/Optifine-Glass/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/optifine_glass/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.choculaterie.OptifineGlassClient"
+		]
+	},
+	"mixins": [
+		{
+			"config": "optifine_glass.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.5",
+		"minecraft": "~26.1",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

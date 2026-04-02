@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.choculaterie.mixin.client",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"OptifineGlassClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

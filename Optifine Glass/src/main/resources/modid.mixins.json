@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.choculaterie.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"OptifineGlassMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
